@@ -11,7 +11,7 @@ export async function getDB() {
       serverSelectionTimeoutMS: 5000,
     });
     await client.connect();
-    db = client.db(); // automatically uses the db from URI
+    db = client.db("chores"); // force correct DB
     console.log("Connected to MongoDB Atlas:", db.databaseName);
   }
   return db;
