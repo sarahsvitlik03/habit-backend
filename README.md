@@ -1,5 +1,5 @@
 
-# Habit Backend
+# Chore Tracker
 
 A lightweight **Node.js + Express** backend powering the Habit Tracker application. This service provides RESTful API endpoints for managing chores, storing habit data, and connecting to a MongoDB database.
 
